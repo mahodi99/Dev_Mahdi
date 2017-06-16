@@ -7470,7 +7470,7 @@ end
 	end
 	-----------------------------------------------------------------------------------------------
 	if text:match("^[Dd][Ee][Vv]$") or text:match("^المطور$") and msg.reply_to_message_id_ == 0 then
-       sendContact(msg.chat_id_, msg.id_, 0, 1, nil, 9647700155973, 'فـكتـٰٰ۪۪۫۫ہﮧـور RMZ♛#ֆ‘﴾ۗ', '', bot_id)
+       sendContact(msg.chat_id_, msg.id_, 0, 1, nil, 9647707641864, 'فـكتـٰٰ۪۪۫۫ہﮧـور RMZ♛#ֆ‘﴾ۗ', '', bot_id)
     end
 	-----------------------------------------------------------------------------------------------
           local text = msg.content_.text_:gsub('وضع اسم','setname')
@@ -8289,7 +8289,7 @@ end
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'md')
    end
-   
+    
    if text:match("^م2$") and is_mod(msg.sender_user_id_, msg.chat_id_) then
    
    local text =  [[
