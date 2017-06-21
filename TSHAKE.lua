@@ -2561,7 +2561,7 @@ end
 	-----------------------------------------------------------------------------------------------
 	if text:match("^[Uu][Nn][Bb][Aa][Nn] (%d+)$") and is_mod(msg.sender_user_id_, msg.chat_id_) then
 	local apba = {string.match(text, "^([Uu][Nn][Bb][Aa][Nn]) (%d+)$")} 	
-	        database:srem('bot:banned:'..msg.chat_id_, ap[2])
+	        database:srem('bot:banned:'..msg.chat_id_, apba[2])
         if database:get('lang:gp:'..msg.chat_id_) then
 	send(msg.chat_id_, msg.id_, 1, '_User_ *'..apba[2]..'* _Unbanned._', 1, 'md')
 else
