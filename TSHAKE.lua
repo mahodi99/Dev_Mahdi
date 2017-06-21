@@ -2517,7 +2517,7 @@ end
   ----------------------------------------------unban--------------------------------------------
           local text = msg.content_.text_:gsub('الغاء حظر','unban')
   	if text:match("^[Uu][Nn][Bb][Aa][Nn]$") and is_mod(msg.sender_user_id_, msg.chat_id_) and msg.reply_to_message_id_ then
-	function unban_by_reply(extra, result, success)
+	function unban_by_reply(extra, result, success) 
 	local hash = 'bot:banned:'..msg.chat_id_
 	if not database:sismember(hash, result.sender_user_id_) then
                   if database:get('lang:gp:'..msg.chat_id_) then
@@ -2693,14 +2693,14 @@ end
           end
           
           if text:match("^[Bb][Aa][Nn][Aa][Ll][Ll] (%d+)$") and is_sudo(msg) then
-            local ap = {string.match(text, "^([Bb][Aa][Nn][Aa][Ll][Ll]) (%d+)$")}
-            if not database:sismember("botadmins:", ap[2]) or sudo_users == result.sender_user_id_ then
-	         	database:sadd('bot:gbanned:', ap[2])
-              chat_kick(msg.chat_id_, ap[2])
+            local apbll = {string.match(text, "^([Bb][Aa][Nn][Aa][Ll][Ll]) (%d+)$")}
+            if not database:sismember("botadmins:", apbll[2]) or sudo_users == result.sender_user_id_ then
+	         	database:sadd('bot:gbanned:', apbll[2])
+              chat_kick(msg.chat_id_, apbll[2])
                   if database:get('lang:gp:'..msg.chat_id_) then
-                texts = '<b>User :</b> <code>'..ap[2]..'</code> <b> Has been Globally Banned !</b>'
+                texts = '<b>User :</b> <code>'..apbll[2]..'</code> <b> Has been Globally Banned !</b>'
               else 
-                texts = '● - <code>العضو </code>'..ap[2]..'<code> تم حظره عام</code> ⚠️'
+                texts = '● - <code>العضو </code>'..apbll[2]..'<code> تم حظره عام</code> ⚠️'
 end
           else
                   if database:get('lang:gp:'..msg.chat_id_) then
@@ -2753,7 +2753,7 @@ end
           if text:match("^[Uu][Nn][Bb][Aa][Nn][Aa][Ll][Ll] (%d+)$") and is_sudo(msg) then
             local apbll = {string.match(text, "^([Uu][Nn][Bb][Aa][Nn][Aa][Ll][Ll]) (%d+)$")}
             local hash = 'bot:gbanned:'
-              database:srem(hash, ap[2])
+              database:srem(hash, apbll[2])
               if database:get('lang:gp:'..msg.chat_id_) then
               texts = '<b>User :</b> '..apbll[2]..' <b>Has been Globally Unbanned !</b>'
             else 
@@ -2832,7 +2832,7 @@ end
 send(msg.chat_id_, msg.id_, 1, '● - `لا تستطيع كتم الادمنيه والمدراء` ⚠️❌', 1, 'md')
 end
     else
-	        database:sadd('bot:muted:'..msg.chat_id_, ap[2])
+	        database:sadd('bot:muted:'..msg.chat_id_, apsi[2])
                   if database:get('lang:gp:'..msg.chat_id_) then
 	send(msg.chat_id_, msg.id_, 1, '_User_ *'..apsi[2]..'* _silent_', 1, 'md')
 else 
@@ -2887,7 +2887,7 @@ end
 	-----------------------------------------------------------------------------------------------
 	if text:match("^[Uu][Nn][Ss][Ii][Ll][Ee][Nn][Tt] (%d+)$") and is_mod(msg.sender_user_id_, msg.chat_id_) then
 	local apsi = {string.match(text, "^([Uu][Nn][Ss][Ii][Ll][Ee][Nn][Tt]) (%d+)$")} 	
-	        database:srem('bot:muted:'..msg.chat_id_, ap[2])
+	        database:srem('bot:muted:'..msg.chat_id_, apsi[2])
                   if database:get('lang:gp:'..msg.chat_id_) then
 	send(msg.chat_id_, msg.id_, 1, '_User_ *'..apsi[2]..'* _unsilent_', 1, 'md')
 else 
@@ -3001,7 +3001,7 @@ end
         -----------------------------------------------------------------------------------------------
     if text:match("^[Ii][Nn][Vv][Ii][Tt][Ee] (%d+)$") and is_sudo(msg) then
       local apee = {string.match(text, "^([Ii][Nn][Vv][Ii][Tt][Ee]) (%d+)$")}
-      add_user(msg.chat_id_, ap[2], 5)
+      add_user(msg.chat_id_, apee[2], 5)
                   if database:get('lang:gp:'..msg.chat_id_) then
 	send(msg.chat_id_, msg.id_, 1, '_User_ *'..apee[2]..'* _Add it._', 1, 'md')
 else
