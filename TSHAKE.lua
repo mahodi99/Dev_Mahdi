@@ -4081,7 +4081,7 @@ end
     if database:get('lang:gp:'..msg.chat_id_) then
          send(msg.chat_id_, msg.id_, 1, '_> mute all has been_ *Locked*', 1, 'md')
       else
-         send(msg.chat_id_, msg.id_, 1, '● - `تم` ✔️ `قفل كل السوائط `🔐\n\n● - `خاصية : المسح` ☑️', 1, 'md')
+         send(msg.chat_id_, msg.id_, 1, '● - `تم` ✔️ `قفل كل الوسائط `🔐\n\n● - `خاصية : المسح` ☑️', 1, 'md')
       end
          database:set('bot:muteall'..msg.chat_id_,true)
       else
