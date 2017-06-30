@@ -3435,7 +3435,7 @@ end
             texts = '<code>خطا </code> ⚠️'
 end
     end
-	         send(msg.chat_id_, msg.id_, 1, texts, 1, 'md')
+	         send(msg.chat_id_, msg.id_, 1, texts, 1, 'html')
     end
 	      resolve_username(ap[2],id_by_username)
     end
