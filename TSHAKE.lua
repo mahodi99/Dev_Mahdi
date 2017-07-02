@@ -8495,20 +8495,19 @@ if text:match("^source$") or text:match("^اصدار$") or text:match("^الاص
 
 <code>المطورين : </code>
 
-<b>Dev | </b>@lIMyIl
-<b>Dev | </b>@IX00XI
-<b>Dev | </b>@lIESIl
-<b>Dev | </b>@H_173
-<b>Dev | </b>@h_k_a
-<b>Dev | </b>@EMADOFFICAL
+<b> TshAkE TEAM </b>
 
 <code>قناه السورس : </code>
 
 <b>Channel | </b>@lTSHAKEl_CH
 
-<code>رابط Github :</code>
+<code>رابط Github cli :</code>
 
 https://github.com/moodlIMyIl/TshAkE
+
+<code>رابط Github api :</code>
+
+https://github.com/moodlIMyIl/TshAkE-api
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'html')
    end
