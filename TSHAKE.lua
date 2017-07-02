@@ -3427,7 +3427,7 @@ end
 	local ap = {string.match(text, "^([Ii][Dd]) @(.*)$")} 
 	function id_by_username(extra, result, success)
 	if result.id_ then
-            texts = '`'..result.id_..'`'
+            texts = '<code>'..result.id_..'</code>'
           else 
            if database:get('lang:gp:'..msg.chat_id_) then
             texts = '<code>User not found!</code>'
@@ -3438,7 +3438,7 @@ end
 	         send(msg.chat_id_, msg.id_, 1, texts, 1, 'html')
     end
 	      resolve_username(ap[2],id_by_username)
-    end
+    end 
 	-----------------------------------------------------------------------------------------------
           local text = msg.content_.text_:gsub('جلب صوره','getpro')
     if text:match("^getpro (%d+)$") and msg.reply_to_message_id_ == 0  then
