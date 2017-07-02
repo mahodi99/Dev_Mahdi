@@ -28,7 +28,7 @@ echo -e "\e[33m         | |/ __| '_ \  / _ \ | |/ /  _|     Dev @IX00XI"
 echo -e "\e[33m         | |\__ \ | | |/ ___ \|   <| |___    Dev @H_173"
 echo -e "\e[33m         |_||___/_| |_/_/   \_\_|\_\_____|   Dev @lIESIl"
 echo -e "\e[33m                                             Dev @h_k_a"
-    echo "\e[31;1mtg not found"
+    echo "tg لا يوجد ملف"
     echo "Run $0 install"
     exit 1
  fi
@@ -47,6 +47,6 @@ echo -e "        Dev | @EMADOFFICAL"
 echo -e "        Dev | @h_k_a"
 echo -e "        \e[38;5;40m"
 
-   ./tg -s ./TshAkE-cli.lua
+   ./tg -s ./TSHAKE.lua
 sleep 3
 done
