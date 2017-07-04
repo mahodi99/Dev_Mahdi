@@ -106,16 +106,16 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo pip install redis
  cd ..
 }
-function chmod_TshAkE() {
- chmod +x tg
- chmod +x TSHAKE.sh
- chmod +x TSHAKE-Auto.sh
-}
 function MOODY_TshAkE() {
  cd TshAkE
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
+}
+function chmod_TshAkE() {
+ chmod +x tg
+ chmod +x TSHAKE.sh
+ chmod +x TSHAKE-Auto.sh
 }
 
 logo1_TshAkE
