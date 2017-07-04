@@ -20,7 +20,7 @@ aa() {
 }
 function logo1_TshAkE() {
 green "     »»               Welcome to TshAkE bot                         ««      "
-green "     »»             I wanna install it for you                      ««      "
+green "     »»               I install it for you                          ««      "
 yellow ""
 yellow ""
 yellow ""
