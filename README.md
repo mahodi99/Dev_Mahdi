@@ -10,11 +10,11 @@
 
 • افتح ترمنال وحط 
 
-git clone https://github.com/moodlIMyIl/TahAkE.git
+git clone https://github.com/moodlIMyIl/TshAkE.git
 
 • انتر وراه حط •
 
-cd TahAkE
+cd TshAkE
 
 • وانتر وراه حط •
 
