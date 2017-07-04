@@ -1,4 +1,62 @@
-
+#!/usr/bin/env bash
+cd TshAkE
+red() {
+  printf '\e[1;31m%s\n\e[0;39;49m' "$@"
+}
+green() {
+  printf '\e[1;32m%s\n\e[0;39;49m' "$@"
+}
+white() {
+  printf '\e[1;37m%s\n\e[0;39;49m' "$@"
+}
+yellow() {
+  printf '\e[1;33m%s\n\e[0;39;49m' "$@"
+}
+Dev() {
+  printf '\e[1;36m%s\n\e[0;39;49m' "$@"
+}
+aa() {
+ sudo apt-get install
+}
+function logo1_TshAkE() {
+green "     »»               Welcome to TshAkE bot                         ««      "
+green "     »»             I wanna install it for you                      ««      "
+yellow ""
+yellow ""
+yellow ""
+yellow "           _____    _        _    _    _____    "
+yellow "          |_   _|__| |__    / \  | | _| ____|   "
+yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
+yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
+yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
+yellow "                                          "
+yellow ""
+}
+function logo2_TshAkE() {
+yellow ""
+yellow ""
+yellow ""
+yellow "           _____    _        _    _    _____    "
+yellow "          |_   _|__| |__    / \  | | _| ____|   "
+yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
+yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
+yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
+yellow "                                          "
+yellow ""
+yellow ""
+Dev    "            Dev @lIMyIl"
+Dev    "            Dev @EMADOFFICAL"
+Dev    "            Dev @IX00XI"
+Dev    "            Dev @H_173"
+Dev    "            Dev @lIESIl"
+Dev    "            Dev @h_k_a"
+yellow ""
+yellow ""
+green "     »»            TshAkE successfully installed                    ««      "
+green "     »»            Run this command for launch bot                  ««      "
+red   "     »»                   ./TSHAKE.sh                               ««      "
+}
+function install_TshAkE() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -19,6 +77,8 @@ sudo apt-get upgrade -y
 
 sudo apt-get dist-upgrade -y
 
+}
+function VICTOR_TshAkE() {
 wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  tar zxpf luarocks-2.2.2.tar.gz
  rm luarocks-2.2.2.tar.gz
@@ -45,11 +105,22 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo easy_install pip
  sudo pip install redis
  cd ..
+}
+function chmod_TshAkE() {
+ chmod +x tg
+ chmod +x TSHAKE.sh
+ chmod +x TSHAKE-Auto.sh
+}
+function MOODY_TshAkE() {
  cd TshAkE
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
- chmod +x tg
- chmod +x TSHAKE.sh
- chmod +x TSHAKE-Auto.sh
- ./TSHAKE.sh
+}
+
+logo1_TshAkE
+install_TshAkE
+VICTOR_TshAkE
+MOODY_TshAkE
+chmod_TshAkE
+logo2_TshAkE
