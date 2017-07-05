@@ -19,7 +19,7 @@ aa() {
  sudo apt-get install
 }
 function logo1_TshAkE() {
-green "     »»               Welcome to TshAkE bot                         ««      "
+green "     »»             Welcome to TshAkE CLi bot                       ««      "
 green "     »»               I install it for you                          ««      "
 yellow ""
 yellow ""
@@ -52,7 +52,7 @@ Dev    "            Dev @lIESIl"
 Dev    "            Dev @h_k_a"
 yellow ""
 yellow ""
-green "     »»            TshAkE successfully installed                    ««      "
+green "     »»           TshAkE CLi successfully installed                 ««      "
 green "     »»            Run this command for launch bot                  ««      "
 red   "     »»                   ./TSHAKE.sh                               ««      "
 }
