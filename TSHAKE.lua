@@ -7852,6 +7852,39 @@ end
     send(msg.chat_id_, msg.id_, 1, "*"..msg.chat_id_.."*", 1, 'md')
   end
 	-----------------------------------------------------------------------------------------------
+  if text == "unlock id" and is_owner(msg.sender_user_id_, msg.chat_id_) or text == "Unlock id" and is_owner(msg.sender_user_id_, msg.chat_id_) or text == "تفعيل الايدي" and is_owner(msg.sender_user_id_, msg.chat_id_) then
+  if not database:get('bot:id:mute'..msg.chat_id_) then
+  if database:get('lang:gp:'..msg.chat_id_) then
+      send(msg.chat_id_, msg.id_, 1, '> *ID is already enabled*️', 1, 'md')
+else
+      send(msg.chat_id_, msg.id_, 1, '● - `الايدي بالفعل تم تفعيله` ☑️', 1, 'md')
+      end
+  else
+  if database:get('lang:gp:'..msg.chat_id_) then
+      send(msg.chat_id_, msg.id_, 1, '> *ID has been enable*️', 1, 'md')
+    else
+      send(msg.chat_id_, msg.id_, 1, '● - `تم تفعيل الايدي` ☑️', 1, 'md')
+       database:del('bot:id:mute'..msg.chat_id_)
+      end
+    end
+    end
+  if text == "lock id" and is_owner(msg.sender_user_id_, msg.chat_id_) or text == "Lock id" and is_owner(msg.sender_user_id_, msg.chat_id_) or text == "تعطيل الايدي" and is_owner(msg.sender_user_id_, msg.chat_id_) then
+  if database:get('bot:id:mute'..msg.chat_id_) then
+  if database:get('lang:gp:'..msg.chat_id_) then
+      send(msg.chat_id_, msg.id_, 1, '> *ID is already disabled*️', 1, 'md')
+    else
+      send(msg.chat_id_, msg.id_, 1, '● - `الايدي بالفعل تم تعطيله` ⚠️', 1, 'md')
+      end
+    else
+  if database:get('lang:gp:'..msg.chat_id_) then
+      send(msg.chat_id_, msg.id_, 1, '> *ID has been disable*️', 1, 'md')
+    else
+      send(msg.chat_id_, msg.id_, 1, '● - `تم تعطيل الايدي` ⚠️', 1, 'md')
+        database:set('bot:id:mute'..msg.chat_id_,true)
+      end
+    end
+  end
+	-----------------------------------------------------------------------------------------------
 if  text:match("^[Ii][Dd]$") and msg.reply_to_message_id_ == 0 or text:match("^ايدي$") and msg.reply_to_message_id_ == 0 then
 local function getpro(extra, result, success)
 local user_msgs = database:get('user:msgs'..msg.chat_id_..':'..msg.sender_user_id_)
@@ -7887,17 +7920,23 @@ local user_msgs = database:get('user:msgs'..msg.chat_id_..':'..msg.sender_user_i
       t = 'عضو فقط ⚠️'
       end
     end
+         if not database:get('bot:id:mute'..msg.chat_id_) then
           if database:get('lang:gp:'..msg.chat_id_) then
             sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, result.photos_[0].sizes_[1].photo_.persistent_id_,"> Group ID : "..msg.chat_id_.."\n> Your ID : "..msg.sender_user_id_.."\n> UserName : "..get_info(msg.sender_user_id_).."\n> Your Rank : "..t.."\n> Msgs : "..user_msgs,msg.id_,msg.id_.."")
   else 
             sendPhoto(msg.chat_id_, msg.id_, 0, 1, nil, result.photos_[0].sizes_[1].photo_.persistent_id_,"● - ايدي المجموعه 📍 : "..msg.chat_id_.."\n● - ايديك 📌 : "..msg.sender_user_id_.."\n● - معرفك 🚹 : "..get_info(msg.sender_user_id_).."\n● - موقعك *️⃣ : "..t.."\n● - رسائلك 📝 : "..user_msgs,msg.id_,msg.id_.."")
 end
+else 
+      end
    else
+         if not database:get('bot:id:mute'..msg.chat_id_) then
           if database:get('lang:gp:'..msg.chat_id_) then
       send(msg.chat_id_, msg.id_, 1, "You Have'nt Profile Photo!!\n\n> *> Group ID :* "..msg.chat_id_.."\n*> Your ID :* "..msg.sender_user_id_.."\n*> UserName :* "..get_info(msg.sender_user_id_).."\n*> Msgs : *_"..user_msgs.."_", 1, 'md')
    else 
       send(msg.chat_id_, msg.id_, 1, "● -`انت لا تملك صوره لحسابك ❗️`\n\n● -` ايدي المجموعه 📍 :` "..msg.chat_id_.."\n● -` ايديك : 📌` "..msg.sender_user_id_.."\n● -` معرفك 🚹 :` "..get_info(msg.sender_user_id_).."\n● -` رسائلك 📝 : `_"..user_msgs.."_", 1, 'md')
 end
+else 
+      end
    end
    end
    tdcli_function ({
@@ -8026,6 +8065,7 @@ end
 *| arabic |* `العربيه`
 *| english |* `الانكليزيه`
 *| reply |* `الردود`
+*| id |* `الايدي`
 *| all |* `كل الميديا`
 *| all |* `مع العدد قفل الميديا بالثواني`
 *======================*
@@ -8405,8 +8445,11 @@ end
 • تفعيل الترحيب | ⭕️
 • تعطيل الترحيب | ❌
 • جلب الترحيب | 💢
+
 • تفعيل الردود  | 🔔
 • تعطيل الردود |🔕
+• تفعيل الايدي  | 🔔
+• تعطيل الايدي |🔕
 • معلومات + ايدي|💯
 • الحساب + ايدي| ❇️
 ֆ • • • • • • • • • • • • • ֆ
