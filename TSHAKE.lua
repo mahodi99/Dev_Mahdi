@@ -8508,7 +8508,7 @@ https://github.com/moodlIMyIl/TshAkE
 
 <code>رابط Github api :</code>
 
-https://github.com/moodlIMyIl/TshAkE-api
+https://github.com/moodlIMyIl/TshAkEapi
 ]]
                 send(msg.chat_id_, msg.id_, 1, text, 1, 'html')
    end
