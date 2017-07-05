@@ -1849,7 +1849,7 @@ else
   
 if text == 'هلو' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ٰ̲ھٓہل͜آًُوِآًُتٰ̲ہٰٰ‏‎‏ ⁾⇣✿🐼💛┊❥'
+moody = "• هَٰہۧـﮧﮧلْٰاَٰوٍّ໑اَٰتّٰ 🌝☄ֆ"
 else 
 moody = ''
 end
@@ -1858,7 +1858,7 @@ end
 
 if text == 'تشاكي' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'نـﮧ✥ـٍعٰٓـ๋͜م تفضل🕷❤️'
+moody = "• نٍٰـعٍِّـﮧﮧمٍٰ تّٰفِٰـہضلْٰ 🍁🌛ֆ"
 else 
 moody = ''
 end
@@ -1866,7 +1866,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'شلونكم' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'تٰمـہام ⚘║␙ 🎅🏿🐾 وانٓــت ࿐❥🐚💛 '
+moody = "• تّٰمٍٰـﮧاَٰمٍٰ وٍّاَٰنٍٰتّٰـہهَٰہۧ 😽⚡️ֆ"
 else 
 moody = ''
 end
@@ -1874,23 +1874,23 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'شلونك' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = ' آلـْ ح ـمـِْدِّ اللّـٰھ وانٓــتــٰـہ ࿐❥ 🌎🌸'
-else 
+moody = "• اَٰلْٰـحٌٰمٍٰـﮧﮧدِٰاَٰلْٰلْٰهَٰہۧ وٍّ୭اَٰنٍٰتّٰـهَٰہۧ 😼💛ֆ"
+else
 moody = ''
 end
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'تمام' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دۈۋم يّےـآٱآرب ↜┇✥ 💁🏿‍♂️👅 '
-else 
+moody = "• دِٰوٍّ൭مٍٰ يَٰـﮧﮧاَٰرِٰبٌِٰ 😻🌪ֆ"
+else
 moody = ''
 end
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'هلاو' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = ' هــﮧ✥ـٍہٰٓـ๋͜لاـوات  حـٰ« ࿐❥ـبي 🐹💧 '
+moody = "• هَٰہۧـہ୪وٍّ୭اَٰتّٰ حٌٰبٌِٰـﮧيَٰ 🤗🌟ֆ"
 else 
 moody = ''
 end
@@ -1898,15 +1898,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '😐' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = ' ﺸبﯿك صۜافن ؏ خالتك😹🙇🏻❤️ '
-else 
-moody = ''
-end
-send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
-end
-if text == 'غنيلي' then 
-if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اي مو كدامك مغني قديم 😒🎋 هوه انـِۨـۛـِۨـۛـِۨي ربي كامز و تكلي غنيلي 🙄😒🕷 آإرۈحُـ✯ـہ✟  😴أنــ💤ــااااام😴  اشرف تالي وكت يردوني اغني 😒☹️🚶'
+moody = "• شَُـبٌِٰيَٰـكٍٰ صُِـﮧﮧاَٰفِٰنٍٰ عٍِّ خّٰاَٰلْٰتّٰـہكٍٰ😹🖤ֆ"
 else 
 moody = ''
 end
@@ -1914,7 +1906,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'هاي' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'هاياہۖۗتֆ ̮⇣ يروہۣۗحہيۣ إنـِۧـۣۧتِـِۨـۘهہْ 💛😽😻'
+moody = "• هَٰہۧـاَٰيَٰـﮧﮧاَٰتّٰ يَٰـرِٰوٍّحٌٰـہيَٰ 🙋🏼‍♂💙ֆ"
 else 
 moody = ''
 end
@@ -1922,7 +1914,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'بوت' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اول شي ولد لو بنيه؟ ثاني شي اذا ولد  امشطلعبرا وذا بنيه حياتي تعاي خاص موضوع حساس عندي😪🌚😹'
+moody = "• تّٰفِٰـضـﮧلْٰ حٌٰبٌِٰـہيَٰ 🌚💫ֆ"
 else 
 moody = ''
 end
@@ -1930,7 +1922,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'اريد اكبل' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'شـًٍـًٍوــًٍـًٍفـًٍــًٍـًٍلـًٍلًٍي وياك حديقه ودايح رسمي 🙇🏿💜😹'
+moody = "• شَُـوٍّ໑فِٰلْٰيَٰ وٍّيَٰـاَٰكٍٰ حٌٰدِٰيَٰـہقٍٰهَٰہۧ وٍّدِٰاَٰيَٰـﮧحٌٰ رِٰسٌٍمٍٰـہيَٰ😾😹💜ֆ"
 else 
 moody = ''
 end
@@ -1938,7 +1930,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'لتزحف' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دعوفه زاحف ع خالتك خلي يستفاد😕😹🙊'
+moody = "• دِٰعٍِّـوٍّ໑فِٰهَٰہۧ زًَاَٰحٌٰـﮧفِٰ عٍِّ خّٰاَٰلْٰـتّٰكٍٰ خّٰـلْٰيَٰ يَٰسٌٍـہتّٰفِٰاَٰدِٰ😾🌈ֆ"
 else 
 moody = ''
 end
@@ -1946,7 +1938,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'كلخرا' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'خرا ليترس حلكك/ج ياخرا يابنلخرا خختفووو ابلع😸🙊💋'
+moody = "• خّٰـﮧرِٰاَٰ يَٰتّٰـہرِٰسٌٍ حٌٰلْٰكٍٰـﮧكٍٰ يَٰاَٰخّٰـﮧرِٰاَٰاَٰ💩ֆ"
 else 
 moody = ''
 end
@@ -1954,7 +1946,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'زاحف' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'زاحف ع اختك؟ كضيت عمرك جرجف🌝😹😹🌝كضيت عمرك زحف تره'
+moody = "• زًَاَٰحٌٰـﮧفِٰ عٍِّ اَٰخّٰتّٰـﮧكٍٰ؟ كٍٰضيَٰـﮧتّٰ عٍِّمٍٰرِٰكٍٰ جًِّرِٰجًِّـﮧفِٰ😾😹ֆ"
 else 
 moody = ''
 end
@@ -1962,7 +1954,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'دي' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'خليني احہۣۗبہۜۧ😻ہہۖۗڱֆ ̮⇣  🌝💔'
+moody = "• خّٰلْٰيَٰنٍٰـﮧيَٰ اَٰحٌٰبٌِٰـﮧكٍٰ 😾ֆ"
 else 
 moody = ''
 end
@@ -1970,15 +1962,15 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'فرخ' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'وينه خلي احصره ؟🙊😹'
-else 
+moody = "• وٍّيَٰنٍٰـﮧهَٰہۧ؟ خّٰ اَٰحٌٰضـﮧرِٰهَٰہۧ 😾😹ֆ"
+else
 moody = ''
 end
 send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'تعالي خاص' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اهوو ضل ضل ساحف كبر طمك😔😹❤️'
+moody = "• اَٰهَٰہۧـﮧوٍّ໑ ضـﮧلْٰ ضـﮧلْٰ سٌٍـﮧاَٰحٌٰفِٰ كٍٰبٌِٰـﮧرِٰ طَُِمٍٰـہكٍٰ😗😂💚ֆ"
 else 
 moody = ''
 end
@@ -1986,7 +1978,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'اكرهك' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ديله شلون اطيق خلقتك اني😾🖖🏿🕷'
+moody = "•دِٰيَٰلْٰـﮧهَٰہۧ شَُـﮧوٍّ୭نٍٰ اَٰطَُِيَٰـقٍٰكٍٰ نٍٰـيَٰ 🙎🏼‍♂🖤ֆ"
 else 
 moody = ''
 end
@@ -1994,7 +1986,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'احبك' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'פـبـ⚘ـيبي 💓💧 وني هم😻🦀'
+moody = "•حٌٰبٌِٰيَٰبٌِٰـﮧيَٰ وٍّنٍٰـﮧيَٰ هَٰہۧــمٍٰ😻👅ֆ"
 else 
 moody = ''
 end
@@ -2002,7 +1994,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'باي' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'وين مولي خلينه متونسين ֆᵛ͢ᵎᵖ ⌯﴾❥ 🐰💔'
+moody = "• وٍّيَٰـﮧنٍٰ رِٰاَٰيَٰـہحٌٰ خّٰلْٰيَٰنٍٰـﮧهَٰہۧ مٍٰتّٰوٍّنٍٰسٌٍيَٰـﮧنٍٰ🙁💔ֆ"
 else 
 moody = ''
 end
@@ -2010,7 +2002,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'واكف' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'بنلخرا وين واكف😐🏃'
+moody = "• بٌِٰنٍٰلْٰخّٰـﮧرِٰاَٰ وٍّيَٰـﮧنٍٰ وٍّاَٰكٍٰـﮧفِٰ😐😒ֆ"
 else 
 moody = ''
 end
@@ -2018,7 +2010,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'وين المدير' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ڸـﯿﺸ شتريد🙄💔🍃'
+moody = "• لْٰيَٰـﮧشَُ شَُتّٰـﮧرِٰيَٰدِٰ🤔ֆ"
 else 
 moody = ''
 end
@@ -2026,7 +2018,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'انجب' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'صﮩﮩار ستادي🐸🍃'
+moody = "• صُِـﮧاَٰرِٰ سٌٍتّٰـﮧاَٰدِٰيَٰ🐸❤️ֆ"
 else 
 moody = ''
 end
@@ -2034,7 +2026,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'تحبني' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'مادري افڱﮩﮩﮩر🐸💔'
+moody = "• مٍٰـﮧاَٰدِٰرِٰيَٰ اَٰفِٰكٍٰـﮧرِٰ🙁😹ֆ"
 else 
 moody = ''
 end
@@ -2042,7 +2034,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '🌚' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ڤڍ  ﯿت ڝخٲﻣك😻🕷👄'
+moody = "• فِٰـﮧدِٰيَٰتّٰ صُِخّٰـﮧاَٰمٍٰكٍٰ🙊👄ֆ "
 else 
 moody = ''
 end
@@ -2050,7 +2042,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '🙄' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = '؏ينڱ نژله اﺨاف عليك/ﭻ 🙇🏻💚'
+moody = "• نٍٰـہزًَلْٰ عٍِّيَٰـنٍٰكٍٰ عٍِّيَٰـﮧبٌِٰ🌚😹ֆ"
 else 
 moody = ''
 end
@@ -2058,7 +2050,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '😒' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'شــبيگ •┇✞🐤💦 حـٰ« ࿐❥ـبي 🐹'
+moody = "• شَُبٌِٰيَٰـﮧكٍٰ كٍٰاَٰلْٰـﮧبٌِٰ خّٰلْٰقٍٰتّٰـﮧكٍٰ😟🐈ֆ"
 else 
 moody = ''
 end
@@ -2066,7 +2058,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '😳' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ها بس لا شفت خالتك الشكره 😳😹🕷'
+moody = "• هَٰہۧـاَٰ بٌِٰسٌٍ لْٰاَٰ شَُفِٰـﮧتّٰ عٍِّمٍٰتّٰـﮧكٍٰ اَٰلْٰعٍِّـﮧوٍّ໑بٌِٰهَٰہۧ😐😹ֆ"
 else 
 moody = ''
 end
@@ -2074,7 +2066,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '🙁' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'تعال اشكيلي اهمومك ليش ضايج 🙁😭💔'
+moody = "• تّٰعٍِّـﮧاَٰلْٰ اَٰشَُكٍٰيَٰلْٰـﮧيَٰ هَٰہۧمٍٰوٍّمٍٰـﮧكٍٰ لْٰيَٰـشَُ • ضاَٰيَٰـﮧجًِّ🙁💔ֆ"
 else 
 moody = ''
 end
@@ -2082,7 +2074,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '🚶💔' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'تعال اشكيلي اهمومك ليش ضايج 🙁😭💔'
+moody = "• تّٰعٍِّـﮧاَٰلْٰ اَٰشَُكٍٰيَٰلْٰـﮧيَٰ هَٰہۧمٍٰوٍّمٍٰـﮧكٍٰ لْٰيَٰـشَُ • ضاَٰيَٰـﮧجًِّ🙁💔ֆ"
 else 
 moody = ''
 end
@@ -2090,7 +2082,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '🙂' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ثكيل علساس هه😪🌞'
+moody = "• ثِْْكٍٰيَٰـﮧلْٰ نٍٰهَٰہۧنٍٰهَٰہۧنٍٰهَٰہۧنٍٰهَٰہۧ🐛ֆ"
 else 
 moody = ''
 end
@@ -2098,7 +2090,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '🌝' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'مٰ̲ہٰٰنہٰٰوِٰڕٰ حہٰٰبྀ̲ہ؏ۤـٖٓہٰٰمٰ̲ہٰٰڕٰيِٰہٰٰ┊※🌝️‘’💛'
+moody = "• مٍٰنٍٰـﮧوٍّ໑رِٰ حٌٰبٌِٰـعٍِّمٍٰـہرِٰيَٰ😽💚ֆ"
 else 
 moody = ''
 end
@@ -2106,7 +2098,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'صباحو' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'صباحو اشرقت وانورت 😌🍁'
+moody = "• صُِبٌِٰاَٰحٌٰـہكٍٰ عٍِّسٌٍـہلْٰ يَٰعٍِّسٌٍـﮧلْٰ😼🤞ֆ"
 else 
 moody = ''
 end
@@ -2114,7 +2106,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'صباح الخير' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'صباحووو اشرقت وانورت 😌🍁'
+moody = "• صُِبٌِٰاَٰحٌٰـہكٍٰ عٍِّسٌٍـہلْٰ يَٰعٍِّسٌٍـﮧلْٰ😼🤞ֆ"
 else 
 moody = ''
 end
@@ -2122,7 +2114,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'كفو' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'الاه كفو يبو لضلوع اه 😻😹'
+moody = "• اَٰهَٰہۧ كٍٰفِٰـﮧوٍّ໑ يَٰبٌِٰہوٍّ୭ اَٰلْٰضـلْٰہوٍّ୭عٍِّ🙀😹ֆ"
 else 
 moody = ''
 end
@@ -2130,7 +2122,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '😌' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'المطلوب ؟'
+moody = "• اَٰلْٰمٍٰطَُِلْٰـﮧوٍّ໑بٌِٰ !😕💞ֆ"
 else 
 moody = ''
 end
@@ -2138,7 +2130,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'اها' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'يب قابل اغشك شسالفة ضلع 😐🌝🎧'
+moody = "• يَٰبٌِٰ قٍٰاَٰبٌِٰـﮧلْٰ اَٰغِِٰشَُـﮧكٍٰ شَُسٌٍاَٰلْٰفِٰـﮧهَٰہۧ حٌٰبٌِٰ😐🌝ֆ"
 else 
 moody = ''
 end
@@ -2146,7 +2138,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'شسمج' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اسمها جعجوعه'
+moody = "• اَٰسٌٍـمٍٰهَٰہۧـﮧاَٰ جًِّعٍِّجًِّـﮧوٍّ໑عٍِّهَٰہۧ😹👊ֆ"
 else 
 moody = ''
 end
@@ -2154,7 +2146,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'شسمك' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اسمه اللمبــي 😹❤'
+moody = "• اَٰسٌٍمٍٰـﮧهَٰہۧ عٍِّبٌِٰـﮧوٍّ໑سٌٍيَٰ لْٰـوٍّ૭سٌٍہيَٰ😾😹💛ֆ"
 else 
 moody = ''
 end
@@ -2162,7 +2154,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'شوف' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = '👀ششوف 👀'
+moody = "• شَُشَُـﮧﮧوٍّ໑فِٰ 🌝🌝ֆ"
 else 
 moody = ''
 end
@@ -2170,7 +2162,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'مساء الخير' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'مساء الخيرات اشرقت وانورت 😌🍁'
+moody = "• مٍٰسٌٍـﮧاَٰء اَٰلْٰحٌٰـﮧبٌِٰ يَٰحٌٰہبٌِٰحٌٰہبٌِٰ🌛🔥ֆ"
 else 
 moody = ''
 end
@@ -2178,7 +2170,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'المدرسه' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = '😒🍃 الله لا يراوينه'
+moody = "• لْٰتّٰجًِّيَٰـﮧبٌِٰ اَٰسٌٍمٍٰـﮧهَٰہۧ لْٰاَٰ اَٰطَُِـﮧرِٰدِٰكٍٰ🌞✨ֆ"
 else 
 moody = ''
 end
@@ -2186,7 +2178,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'منو ديحذف رسائلي' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'محد 😐🍃'
+moody = "• خّٰـﮧاَٰلْٰتّٰـہكٍٰ 🌚ֆ🌝"
 else 
 moody = ''
 end
@@ -2194,7 +2186,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'البوت واكف' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'لتجذب 😒'
+moody = "• لْٰجًِّـﮧذَْبٌِٰ حٌٰبٌِٰـہيَٰ 🌞⚡️ֆ"
 else 
 moody = ''
 end
@@ -2202,7 +2194,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'غلس' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اعمل حالك/ج😴 ميت'
+moody = "• وٍّ໑كٍٰ بٌِٰـﮧسٌٍ سٌٍـﮧوٍّ୭لْٰفِٰلْٰيَٰ اَٰلْٰسٌٍـﮧاَٰلْٰفِٰهَٰہۧ بٌِٰعٍِّـﮧدِٰيَٰنٍٰ🌝🦅ֆ"
 else 
 moody = ''
 end
@@ -2210,7 +2202,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'حارة' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'يي كولش 😭🍃🔥'
+moody = "• تّٰسٌٍـہمٍٰطَُِ سٌٍمٍٰـﮧطَُِ غِِٰيَٰـﮧرِٰ يَٰرِٰحٌٰمٍٰنٍٰـﮧهَٰہۧ اَٰلْٰاَٰعٍِّبٌِٰـاَٰدِٰيَٰ وٍّيَٰنٍٰـہطَُِيَٰ عٍِّطَُِلْٰـﮧهَٰہۧ 😾💔ֆ"
 else 
 moody = ''
 end
@@ -2218,7 +2210,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'هههه' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دوم حبي ❤'
+moody = "• نٍٰشَُـﮧاَٰلْٰلْٰهَٰہۧ دِٰاَٰيَٰمٍٰـﮧهَٰہۧ💆🏻‍♂💘ֆ"
 else 
 moody = ''
 end
@@ -2226,7 +2218,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'ههههه' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دوم حبي ❤'
+moody = "• نٍٰشَُـﮧاَٰلْٰلْٰهَٰہۧ دِٰاَٰيَٰمٍٰـﮧهَٰہۧ💆🏻‍♂💘ֆ"
 else 
 moody = ''
 end
@@ -2234,7 +2226,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == '😹' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'دوم حبي ❤'
+moody = "• نٍٰشَُـﮧاَٰلْٰلْٰهَٰہۧ دِٰاَٰيَٰمٍٰـﮧهَٰہۧ💆🏻‍♂💘ֆ"
 else 
 moody = ''
 end
@@ -2242,7 +2234,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'وين' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'بأرض الله الواسعـة🙄'
+moody = "• بٌِٰـﮧﮧأرِٰض اَٰلْٰلْٰهَٰہۧ اَٰلْٰـہوٍّاَٰسٌٍعٍِّـﮧهَٰہۧ😽💜ֆ"
 else 
 moody = ''
 end
@@ -2250,7 +2242,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'كافي لغوة' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'ماگـدر والله بيـة دودة😷'
+moody = "• كٍٰـيَٰفِٰنٍٰـﮧهَٰہۧ نٍٰتّٰـﮧهَٰہۧ شَُعٍِّـہلْٰيَٰكٍٰ😼👊ֆ"
 else 
 moody = ''
 end
@@ -2258,7 +2250,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'نايمين' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'اني سهران احرسكـم😐🍃'
+moody = "• اَٰنٍٰـﮧيَٰ سٌٍهَٰہۧـہرِٰاَٰنٍٰ اَٰحٌٰرِٰسٌٍـﮧكٍٰمٍٰ مٍٰـﮧטּ تّٰـرِٰاَٰمٍٰـﮧبٌِٰ😿😹🙌ֆ"
 else 
 moody = ''
 end
@@ -2266,7 +2258,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'اكو احد' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'يي عيني انـي موجـود🌝🌿'
+moody = "• يَٰ عٍِّيَٰـنٍٰـﮧيَٰ اَٰنٍٰـہيَٰ مٍٰـوٍّ૭جًِّـﮧوٍّدِٰ🌝✨ֆ"
 else 
 moody = ''
 end
@@ -2274,7 +2266,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'فديت' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'فداكـ/چ ثولان العالـم😍😂'
+moody = "•فِٰـﮧﮧدِٰاَٰكٍٰ/جًِّ ثِْْـﮧوٍّ୪لْٰاَٰنٍٰ اَٰلْٰكٍٰـرِٰوٍّ୭بٌِٰ😟😂💚ֆ"
 else 
 moody = ''
 end
@@ -2282,7 +2274,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'شكو' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'كلشي وكلاشي🐸تگـول عبالك احنـة بالشورجـة🌝'
+moody = "• كٍٰلْٰـشَُـﮧﮧيَٰ مٍٰـہاَٰكٍٰـﮧوٍّ اَٰرِٰجًِّـعٍِّ نٍٰـاَٰمٍٰ🐼🌩ֆ"
 else 
 moody = ''
 end
@@ -2290,7 +2282,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'اوف' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'سلامتـكـ/چ من الأووف يـا بعد افادي☹️💔'
+moody = "• هَٰہۧـﮧﮧاَٰيَٰ اَٰوٍّفِٰ مٍٰنٍٰ يَٰـاَٰ نٍٰـوٍّ୭عٍِّ صُِـاَٰرِٰتّٰ اَٰلْٰـسٌٍاَٰلْٰفِٰهَٰہۧ مٍٰتّٰـنٍٰعٍِّرِٰفِٰ🌚🌙ֆ"
 else 
 moody = ''
 end
@@ -2298,7 +2290,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'احبج' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'واليحب بلوة🙄وين الله وزحفتي تجيبلي عيونچ الحلـوة🙄🤓'
+moody = "•جًِّـﮧذَْاَٰبٌِٰ يَٰـرِٰيَٰدِٰ يَٰطَُِـہكٍٰجًِّ😹🌞⚡️ֆ"
 else 
 moody = ''
 end
@@ -2306,7 +2298,7 @@ send(msg.chat_id_, msg.id_, 1, moody, 1, 'md')
 end
 if text == 'انتة منو' then 
 if not database:get('bot:rep:mute'..msg.chat_id_) then
-moody = 'آني كـامل مفيد اكبر زنگين أگعدة عالحديـد😼🙌'
+moody = "• اَٰنٍٰـﮧﮧيَٰ بٌِٰـوٍّ໑تّٰ💨🌝ֆ"
 else 
 moody = ''
 end
