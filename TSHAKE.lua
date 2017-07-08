@@ -991,7 +991,7 @@ if msg_type == 'MSG:Photo' then
         end
         end
 end
-   elseif msg_type == 'MSG:document' then
+   elseif msg.content_.ID == 'MessageDocument' then
    if not is_mod(msg.sender_user_id_, msg.chat_id_) then
     if database:get('bot:document:mute'..msg.chat_id_) then
     local id = msg.id_
