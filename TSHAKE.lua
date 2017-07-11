@@ -2686,23 +2686,22 @@ end
           
           if text:match("^[Bb][Aa][Nn][Aa][Ll][Ll] (%d+)$") and is_sudo(msg) then
             local apbll = {string.match(text, "^([Bb][Aa][Nn][Aa][Ll][Ll]) (%d+)$")}
-            if not database:sismember("botadmins:", apbll[2]) or sudo_users == result.sender_user_id_ then
-	         	database:sadd('bot:gbanned:', apbll[2])
-              chat_kick(msg.chat_id_, apbll[2])
+  local hash = 'bot:gbanned:'
+	if is_admin(apbll[2], msg.chat_id_) then
                   if database:get('lang:gp:'..msg.chat_id_) then
-                texts = '<b>User :</b> <code>'..apbll[2]..'</code> <b> Has been Globally Banned !</b>'
-              else 
-                texts = '● - <code>العضو </code>'..apbll[2]..'<code> تم حظره عام</code> ⚠️'
+         send(msg.chat_id_, msg.id_, 1, '*You Can,t [Banall] admins/sudo!!*', 1, 'md')
+       else
+            send(msg.chat_id_, msg.id_, 1, '● - لا تستطيع حظر ادمنيه البوت والمطورين عام ⚠️❌', 1, 'md')
 end
-          else
+    else
+	        database:sadd(hash, apbll[2])
                   if database:get('lang:gp:'..msg.chat_id_) then
-                  texts = '<b>User not found!</b>'
-                else
-                  texts = '<code>خطا </code>⚠️'
-                end
+	send(msg.chat_id_, msg.id_, 1, '_User_ *'..apbll[2]..'* _Has been Globally Banned _', 1, 'md')
+else
+    send(msg.chat_id_, msg.id_, 1, '● - `العضو` *'..apbll[2]..'* `تم حظره عام` ⚠️', 1, 'md')
+  	end
+	end
 end
-	         send(msg.chat_id_, msg.id_, 1, texts, 1, 'html')
-            end
           -----------------------------------------------------------------------------------------------
           local text = msg.content_.text_:gsub('الغاء العام','unbanall')
           if text:match("^[Uu][Nn][Bb][Aa][Nn][Aa][Ll][Ll]$") and is_sudo(msg) and msg.reply_to_message_id_ then
