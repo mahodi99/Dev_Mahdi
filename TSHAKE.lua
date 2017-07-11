@@ -7838,15 +7838,6 @@ else
       end
     end
   end
- 
-if text == 'reload' or text == 'تحديث' and is_sudo(msg) then
-dofile('./TSHAKE.lua')
-if database:get('lang:gp:'..msg.chat_id_) then
-send(msg.chat_id_,msg.id_,1,'*TSHAKE.lua BOT Reloaded*',1,'md')
-else 
-send(msg.chat_id_,msg.id_,1,'● - تم تحديث التغييرات لملف [ TSHAKE.lua ] ☑️',1,'md')
-end
-end
 	-----------------------------------------------------------------------------------------------
    if text:match("^[Ii][Dd][Gg][Pp]$") or text:match("^ايدي المجموعه$") then
     send(msg.chat_id_, msg.id_, 1, "*"..msg.chat_id_.."*", 1, 'md')
