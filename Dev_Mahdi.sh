@@ -4,10 +4,10 @@ while [  $COUNTER -lt 5 ]; do
 kill $(pgrep telegram-cli)
 function print_logo() {
 	echo -e "\e[38;5;77m"   
-echo -e "       CH > @Mahodi_Sharif             "
-echo -e "       CH > @Mahodi_Sharif            "
-echo -e "       CH > @Mahodi_Sharif     "
-echo -e "       CH > @Mahodi_Sharif      "
+echo -e "       CH > @Mahodi_Sharif             
+echo -e "       CH > @Mahodi_Sharif            
+echo -e "       CH > @Mahodi_Sharif     
+echo -e "       CH > @Mahodi_Sharif      
 echo -e "       CH > @Mahodi_Sharif           \e[38;5;88m"
 echo -e ""
 echo -e ""
@@ -27,7 +27,7 @@ echo -e "\e[33m           Dev @DEV_MODI"
 echo -e "\e[33m           Dev @Mahodi_Sharif"
 echo -e "\e[33m           Dev @DEV_MODI"
 echo -e "\e[33m           Dev @Mahodi_Sharif"
-echo -e "\e[33m                                             Dev @DEV_MODI"
+echo -e "\e[33m           Dev @DEV_MODI"
     echo "tg لا يوجد ملف"
     echo "Run $0 install"
     exit 1
