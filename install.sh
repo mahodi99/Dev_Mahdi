@@ -19,44 +19,44 @@ aa() {
  sudo apt-get install
 }
 function logo1_TshAkE() {
-green "     »»             Welcome to Dev_Mahdi CLi bot                       ««      "
+green "     »»             Welcome to TshAkE CLi bot                       ««      "
 green "     »»               I install it for you                          ««      "
 yellow ""
 yellow ""
 yellow ""
-yellow "        
-yellow "      
-yellow "            
-yellow "            
-yellow "            
-yellow "                                          
+yellow "           _____    _        _    _    _____    "
+yellow "          |_   _|__| |__    / \  | | _| ____|   "
+yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
+yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
+yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
+yellow "                                          "
 yellow ""
 }
-function logo2_mahodi99() {
+function logo2_TshAkE() {
 yellow ""
 yellow ""
 yellow ""
-yellow "           
-yellow "          
-yellow "            
-yellow "            
-yellow "            
-yellow "                                          
+yellow "           _____    _        _    _    _____    "
+yellow "          |_   _|__| |__    / \  | | _| ____|   "
+yellow "            | |/ __| '_ \  / _ \ | |/ /  _|     "
+yellow "            | |\__ \ | | |/ ___ \|   <| |___    "
+yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
+yellow "                                          "
 yellow ""
 yellow ""
-Dev    "            Dev @Mahodi_Sharif "
-Dev    "            Dev @MAHODI_SHARIF_bot "
-Dev    "            Dev @Mahdi_Sharif "
-Dev    "            Dev @Dev_Modi "
-Dev    "            Dev @Mahdi_Sharif "
-Dev    "            Dev @Mahdi_Sharif "
+Dev    "            Dev @lIMyIl"
+Dev    "            Dev @EMADOFFICAL"
+Dev    "            Dev @IX00XI"
+Dev    "            Dev @H_173"
+Dev    "            Dev @lIESIl"
+Dev    "            Dev @h_k_a"
 yellow ""
 yellow ""
-green "                TshAkE CLi successfully installed                 
-green "                 Run this command for launch bot                  
-red   "                        ./Dev_Mahdi.sh                                     
+green "     »»           TshAkE CLi successfully installed                 ««      "
+green "     »»            Run this command for launch bot                  ««      "
+red   "     »»                   ./Dev_Mahdi.sh                            ««      "
 }
-function install_Dev_Mahdi() {
+function install_TshAkE() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -107,12 +107,12 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  cd ..
 }
 function MOODY_TshAkE() {
- cd Dev_Mahdi
+ cd TshAkE
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
 }
-function chmod_TshAkE() {
+function chmod_Dev_Mahdi() {
  chmod +x tg
  chmod +x Dev_Mahdi.sh
  chmod +x Dev_Mahdi-Auto.sh
