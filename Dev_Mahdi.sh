@@ -47,6 +47,6 @@ echo -e "        Dev | @Mahodi_Sharif"
 echo -e "        Dev | @DEV_MODI"
 echo -e "        \e[38;5;40m"
 
-   ./tg -s ./Dev_Mahdi.lua
+   ./tg -s ./mahodi99.lua
 sleep 3
 done
