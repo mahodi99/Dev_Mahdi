@@ -18,7 +18,7 @@ Dev() {
 aa() {
  sudo apt-get install
 }
-function logo1_TshAkE() {
+function logo1_mahodi99() {
 green "     »»             Welcome to TshAkE CLi bot                       ««      "
 green "     »»               I install it for you                          ««      "
 yellow ""
@@ -32,7 +32,7 @@ yellow "            |_||___/_| |_/_/   \_\_|\_\_____|   "
 yellow "                                          "
 yellow ""
 }
-function logo2_TshAkE() {
+function logo2_mahodi99() {
 yellow ""
 yellow ""
 yellow ""
@@ -56,7 +56,7 @@ green "     »»           TshAkE CLi successfully installed                 «�
 green "     »»            Run this command for launch bot                  ««      "
 red   "     »»                   ./Dev_Mahdi.sh                            ««      "
 }
-function install_TshAkE() {
+function install_mahodi99() {
 sudo apt-get update
 
 sudo apt-get upgrade -y
@@ -106,8 +106,8 @@ wget http://luarocks.org/releases/luarocks-2.2.2.tar.gz
  sudo pip install redis
  cd ..
 }
-function MOODY_TshAkE() {
- cd TshAkE
+function MOODY_mahodi99() {
+ cd Dev_Mahdi
  rm -rf "luarocks-2.2.2"
  wget "https://valtman.name/files/telegram-cli-1222"
  mv telegram-cli-1222 tg
