@@ -19,8 +19,8 @@ aa() {
  sudo apt-get install
 }
 function logo1_mahodi99() {
-green "     »»             Welcome to TshAkE CLi bot                       ««      "
-green "     »»               I install it for you                          ««      "
+green "     »»             Welcome to Dev_Mahdi CLi bot                   ««       "
+green "     »»               I install it for you                         ««       "
 yellow ""
 yellow ""
 yellow ""
