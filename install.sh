@@ -45,16 +45,16 @@ yellow "
 yellow ""
 yellow ""
 Dev    "            Dev @Mahodi_Sharif "
-Dev    "            Dev @MAHODI_SHARIF_bot  "
-Dev    "            Dev @Mahdi_Sharif"
-Dev    "            Dev @Dev_Modi"
-Dev    "            Dev @Mahdi_Sharif"
-Dev    "            Dev @Mahdi_Sharif"
+Dev    "            Dev @MAHODI_SHARIF_bot "
+Dev    "            Dev @Mahdi_Sharif "
+Dev    "            Dev @Dev_Modi "
+Dev    "            Dev @Mahdi_Sharif "
+Dev    "            Dev @Mahdi_Sharif "
 yellow ""
 yellow ""
-green "     »»           TshAkE CLi successfully installed                 ««      "
-green "     »»            Run this command for launch bot                  ««      "
-red   "     »»                   ./Dev_Mahdi.sh                               ««      "
+green "                TshAkE CLi successfully installed                 
+green "                 Run this command for launch bot                  
+red   "                        ./Dev_Mahdi.sh                                     
 }
 function install_Dev_Mahdi() {
 sudo apt-get update
